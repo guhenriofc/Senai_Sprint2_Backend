@@ -1,6 +1,7 @@
 ﻿using Hroads_WebAPI.Domains;
 using Hroads_WebAPI.Interfaces;
 using Hroads_WebAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -22,6 +23,13 @@ namespace Hroads_WebAPI.Controllers
             _personagemRepository = new PersonagemRepository();
         }
 
+        [HttpGet("Listar")]
+        public IActionResult GetClasse()
+        {
+            return Ok(_personagemRepository.ListarComClasse());
+        }
+
+        [Authorize(Roles = "1,2")]
         [HttpGet]
         public IActionResult Get()
         {
@@ -36,6 +44,7 @@ namespace Hroads_WebAPI.Controllers
             return StatusCode(204);
         }
 
+        [Authorize(Roles = "2")]
         [HttpPost]
         public IActionResult Post(Personagem Nome)
         {

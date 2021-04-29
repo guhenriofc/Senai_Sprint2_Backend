@@ -1,5 +1,6 @@
 ﻿using Hroads_WebAPI.Domains;
 using Hroads_WebAPI.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,6 +55,15 @@ namespace Hroads_WebAPI.Repositories
         public List<Personagem> Listar()
         {
             return ctx.Personagems.ToList();
+        }
+
+        /// <summary>
+        /// ele lista em ordem alfabetica pela CLASSE
+        /// </summary>
+        /// <returns></returns>
+        public List<Personagem> ListarComClasse()
+        {
+            return ctx.Personagems.Include(e => e.IdClasseNavigation).OrderBy(e=> e.IdClasseNavigation.NomeClasse).ToList();
         }
     }
 }

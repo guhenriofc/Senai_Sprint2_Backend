@@ -14,7 +14,7 @@ namespace Hroads_WebAPI.Repositories
         {
             Usuario UsuarioBuscado = ctx.Usuarios.Find(id);
 
-            if(UsuarioAtualizado.Email != null)
+            if (UsuarioAtualizado.Email != null)
             {
                 UsuarioBuscado.Email = UsuarioAtualizado.Email;
                 UsuarioBuscado.Senha = UsuarioAtualizado.Senha;
@@ -50,6 +50,11 @@ namespace Hroads_WebAPI.Repositories
         public List<Usuario> Listar()
         {
             return ctx.Usuarios.ToList();
+        }
+
+        public Usuario Login(string Email, string Senha)
+        {
+            return ctx.Usuarios.FirstOrDefault(u => u.Email == Email && u.Senha == Senha);
         }
     }
 }
