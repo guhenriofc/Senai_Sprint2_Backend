@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adm\\Desktop\\SENAI-Sprint2-BackEnd\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj": {}
+    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adm\\Desktop\\SENAI-Sprint2-BackEnd\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj": {
+    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adm\\Desktop\\SENAI-Sprint2-BackEnd\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj",
         "projectName": "Projeto_InLock_WebAPI",
-        "projectPath": "C:\\Users\\adm\\Desktop\\SENAI-Sprint2-BackEnd\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj",
-        "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adm\\Desktop\\SENAI-Sprint2-BackEnd\\Inlock\\Projeto_InLock_WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Inlock\\Projeto_InLock_WebAPI\\Projeto_InLock_WebAPI.csproj",
+        "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Inlock\\Projeto_InLock_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -81,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
