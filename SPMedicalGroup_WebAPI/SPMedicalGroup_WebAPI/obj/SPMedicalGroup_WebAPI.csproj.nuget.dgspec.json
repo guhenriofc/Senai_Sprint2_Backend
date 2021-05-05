@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Projeto-SPMedicalGroup\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj": {}
+    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Projeto-SPMedicalGroup\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj": {
+    "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Projeto-SPMedicalGroup\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj",
         "projectName": "SPMedicalGroup_WebAPI",
-        "projectPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Projeto-SPMedicalGroup\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj",
+        "projectPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI.csproj",
         "packagesPath": "C:\\Users\\DEV\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\Projeto-SPMedicalGroup\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\DEV\\Desktop\\Gustavo H\\Sprint2_Backend\\SPMedicalGroup_WebAPI\\SPMedicalGroup_WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
