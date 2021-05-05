@@ -1,0 +1,1 @@
+Scaffolda-DbContext "Data Source = "nomeMaquina"; initial catalog = "nomeBD"; integrated security = true;"Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Context -Context "nomeBd"Context
