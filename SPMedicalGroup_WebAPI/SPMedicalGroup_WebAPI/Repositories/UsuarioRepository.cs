@@ -7,5 +7,6 @@ namespace SPMedicalGroup_WebAPI.Repositories
 {
     public class UsuarioRepository
     {
+
     }
 }
